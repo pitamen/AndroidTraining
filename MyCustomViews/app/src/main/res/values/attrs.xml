@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<!--Set Attribute resources(declare - stylable)-->
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+    <declare-styleable name="Options">
+        <attr name="titleText" format="string"/>
+        <attr name="titleColor" format="color"/>
+    </declare-styleable>
+</resources>-->
