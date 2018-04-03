@@ -8,6 +8,26 @@
     tools:context="com.taregan.mycustomviews.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
+    <!--use custom button-->
+    <com.taregan.mycustomviews.views.MyCustomButton
+        android:id="@+id/myCustomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintBottom_toTopOf="@+id/myCustomButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <com.taregan.mycustomviews.views.MyCustomButton
+        android:id="@+id/myCustomButton2"
+        android:layout_width="202dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myCustomButton" />
 
 </android.support.constraint.ConstraintLayout>
